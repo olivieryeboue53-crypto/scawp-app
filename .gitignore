@@ -1,5 +1,11 @@
 .streamlit/secrets.toml
 
+# Application database (SQLite + WAL sidecar files)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
